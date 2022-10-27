@@ -367,11 +367,13 @@ footer {
 @media screen and (max-width:800px) {
   .foot {
     flex-direction: column;
-    /* row-gap: 2rem; */
     align-items: center;
   }
   .group2 p {
     text-align: center;
+  }
+  .group img, .group2 button {
+    margin-bottom: 2rem;
   }
   .group, .group2 {
     align-items: center;
