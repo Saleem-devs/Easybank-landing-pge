@@ -391,6 +391,12 @@ footer {
     flex-direction: column;
     align-items: center;
   }
+  .reaons .box, .blog .news {
+    margin-bottom: 2rem;
+  }
+  .reaons .box:last-child, .blog .news:last-child {
+    margin-bottom: 0;
+  }
   .choose h1, .choose p, .articles h1 {
     text-align: center;
   }
